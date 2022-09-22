@@ -1,0 +1,126 @@
+:root {
+    --header-height: 3rem;
+  
+    /*===== Colors =====*/
+    --first-color: #fff;
+    --first-color-second: #5955b3;
+    --text-color: #fff;
+    --text-color-light:#c6c6c6;
+    --text-color-light-dark:#acabab;
+    --first-color-dark: #3d3061;
+    --first-color-lighten: #5d59b5;
+  
+    /*===== Font and typography =====*/
+    --body-font: "Poppins", sans-serif;
+    --biggest-font-size: 3.3rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  
+    /*===== Font weight =====*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+  
+    /*===== Margenes =====*/
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 6rem;
+  
+    /*===== z index =====*/
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container{
+    margin-top:var(--mb-4) ;
+    margin-left:var(--mb-6) ;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: var(--mb-5);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 30px;
+    font-size: var(--normal-font-size);
+}
+
+.list-item{
+    color: var(--text-color-light);
+}
+
+.list-item-1{
+    color: #000;
+}
+
+.grow-list{
+    margin-left: 50px;
+}
+
+.nav-button {
+   position: absolute;
+   right: var(--mb-6);
+   background-color: var(--first-color-second);
+   border: none;
+   color: var(--first-color);
+   height: 50px;
+   width: 150px;
+   border-radius: 10px;
+   top: var(--mb-5);
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-text{
+    font-size: var(--biggest-font-size);
+    margin-top: var(--mb-6);
+    font-weight: var(--font-semi-bold);
+    color: var(--first-color-dark);
+}
+
+.heading-text span{
+    color: var(--first-color-lighten);
+    margin: 0px;
+}
+
+.description{
+    margin-top: var(--mb-3);
+    color: var(--text-color-light-dark);
+    margin-bottom: var(--mb-6);
+}
+
+.nav-button-btn {
+    border: none;
+    background-color: var(--first-color-second);
+   color: var(--first-color);
+   height: 50px;
+   width: 150px;
+   border-radius: 10px;
+}
+
